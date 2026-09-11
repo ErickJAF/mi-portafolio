@@ -31,15 +31,8 @@ nav a {
     text-decoration: none;
     padding: 8px 14px;
     margin: 4px;
-    /*
-    esto que puse despues es para mantener el ancho y alto exactos del elemento.
-    */
     display: inline-block;
     border-radius: 5px;
-}
-
-nav a:hover {
-    background-color: #6552a8;
 }
 
 main {
@@ -48,7 +41,7 @@ main {
     padding: 20px;
 }
 
-#sobre-mi, #habilidades, #formacion, #proyectos, #contacto {
+#sobre-mi, #habilidades, #formacion, #proyectos, #contacto, #videojuegos, #deportes, #matematicas {
     background-color: #4a177c;
     border: 2px solid #280942;
     border-radius: 8px;
@@ -95,7 +88,6 @@ a:hover {
 
 .foto-hobbies {
     width: 100%;
-    height: auto;
     border-radius: 12px;
     border: 2px solid #280942;
     display: block;
